@@ -7,8 +7,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
 .navbar{
 
     background-color: #6F6AF7;
@@ -23,7 +29,7 @@
     /* background-color: aquamarine; */
     width: 50%;
     list-style: none;
-    font-size: 1em;
+    font-size: 18px;
     font-family: "DM Sans", sans-serif;
     font-style: normal;
     display: flex;
@@ -61,16 +67,16 @@
 .navbar .search-box img{
     display: inline-block;
     vertical-align: middle;
-    margin-left: 78px;
+    margin-left: 60px;
     width: 18px;
     
     
 }
 .navbar .daper{
     /* background-color: black; */
-    font-size: 2rem;
+    font-size: 28px;
     font-family: "Delius Unicase", cursive;
-    width: 12%;
+    width: 14%;
     position: absolute;
     left: 30px;
     top: 16px;
@@ -83,8 +89,9 @@
     /* background-color: #ad8282; */
     width:90vw ;
     height: auto;
-    margin-top: 72px;
-    margin-left: 70px;
+    /* margin-top: 72px;
+    margin-left: 70px; */
+    margin: 5% 6%;
     
 }
 .section{
@@ -109,14 +116,14 @@
 .right-div p{
     margin: 22px;
     font-family:"DM Sans", sans-serif ;
-    font-size: 1.7rem;
+    font-size: 20px;
     padding: 14px;
 }
 
 .social-icon{
    
     position: fixed;
-    top: 40%;
+    top:  35%;
     right: 12px;
 }
 .icon{
@@ -124,7 +131,6 @@
     border: 2px solid black;
     background-color: #FFFFFF;
     margin: 6px;
-  
     border-radius:10px;
    
   
@@ -138,7 +144,6 @@
    width: 100%;
     display: flex;
     margin-top: 50px;
-   
     justify-content: space-evenly;
 
 }
@@ -147,7 +152,6 @@
     width: 20%;
     height: 17vh;
     padding: 6px;
-    
     border-radius: 10px;
     box-shadow: 0px 2px  gray ;
     
@@ -180,18 +184,18 @@
 }
 .form-section{
     background-color: #483EFF;
-    width: 92vw;
+    width: 90vw;
     height: 80vh;
-    margin-top: 80px;
-    margin-left: 50px;
+    margin-top: 6%;
+    margin-left: 5%;
     border-radius: 27px;
     display: flex;
+   
     
 
 } 
 .form-section .btn{
     width: 35%;
-    /* background-color: #D288FF; */
     display: flex;
     flex-direction: column;
     
@@ -205,7 +209,7 @@
     border: 3px solid #FFFFFF;
     background: transparent;
     color: #FFFFFF;
-    font-size: 1.3rem;
+    font-size: 20px;
     font-family: "DM Sans", sans-serif;
     font-weight: normal;
 
@@ -236,7 +240,7 @@
 }
 .info-card h1{
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: bold;
     color: #04285A;
 }
@@ -268,7 +272,7 @@ table tr th,td{
     outline: none;
     border-radius: 6px;
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size:16px;
     padding: 2px;
   margin: auto;
  transform: translate(300%,270%);
