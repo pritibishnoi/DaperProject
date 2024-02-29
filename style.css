@@ -21,7 +21,7 @@ body{
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 11vh;
+    height: 12vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ body{
 }
 .navitem li{
    margin-left: 10%;
-   font-size: 20px;
+   font-size: 1.2rem;
 }
 .navbar .search-box{
   
@@ -144,19 +144,22 @@ body{
 }
 .cards{
 
-   width: 100%;
+    width: 100%;
     display: flex;
-    margin-top: 2%;
-    justify-content: space-evenly;
+    justify-content: center;
+   
+    
 
 }
 
 .card{
     width: 20%;
-    height: 17vh;
+    height: 18vh;
     padding: 8px;
     border-radius: 10px;
     box-shadow: 0px 2px  gray ;
+    margin: 16px;
+  
     
     
 }
@@ -180,10 +183,10 @@ body{
 }
 
 .cards .card img{
-    width: 140px;
-    /* position: fixed; */
-    transform: translate(90% ,-40%);
-    
+    width: 150px;
+    position: fixed;
+    transform: translate(90% ,-90%);
+    z-index: 1;
     
 }
 .form-section{
@@ -192,7 +195,8 @@ body{
     height: 80vh;
     margin: 5% 5%;
     border-radius: 27px;
-    display: flex;
+    display: inline-flex;
+    bottom: 14%;
    
     
 
@@ -275,3 +279,25 @@ table tr th,td{
   margin: auto;
  transform: translate(300%,270%);
 }
+
+
+@media only screen and (max-width: 600px) {
+    .navitem ,.navbar .search-box {
+       
+        display: none;
+        
+        
+    }
+    .navbar{
+        width: 100%;
+        
+    }
+    
+    .menu{
+        margin-left: 50%;
+    }
+    
+    
+    }
+
+  
